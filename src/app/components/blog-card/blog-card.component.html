@@ -1,0 +1,7 @@
+<div class="cards-container">
+  <div class="card" *ngFor="let post of posts">
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.body }}</p>
+    <a [href]="post.id" target="_blank">Leia mais...</a>
+  </div>
+</div>
